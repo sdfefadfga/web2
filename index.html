@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- saved from url=(0107)http://fy.cug.edu.cn/right/LoginCheckAfter.do?loginPage=newmobile&myticket=ff8080817f7e3544017f81ed8f6d125f -->
+<html lang="zh-cmn-Hans"><script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>中国地质大学（武汉）校园健康与疫情应急管理平台预约登记系统</title>
+    <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./index_files/weui.css">
+    <link rel="stylesheet" href="./index_files/common.css">
+    <script src="./index_files/html5.min.js.下载"></script>
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]--> 
+    <style>
+        body, html {
+            background-color: #7FC4FD;
+        }
+        .nav-container {
+            position: relative;
+            z-index:0;
+        }
+        .nav-container .logo {
+            width: 100%;
+            height: auto;
+            margin-top:-50px;
+        }
+        .nav-container .items {
+            position: relative;
+            margin-top:-45px;
+            width: 90%;
+            left: 5%;
+        }
+        .nav-container .items a {
+            width: 90%;
+            height: 45px;
+            line-height: 40px;
+            background: #fff;
+            margin: auto;
+            display: block;
+            text-align: center;
+            border: 3px solid #B1D9FB;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            font-size: 16px;
+            color: #2699FB;
+            font-weight: bold;
+            box-shadow: 0 3px 5px #999;
+            -moz-box-shadow: 0 3px 5px #999;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- 页头标题 -->
+<section class="header text-center text-white">
+    校园健康与疫情应急系统
+    <a href="javascript:window.history.back();" class="back d-block h-100"></a>
+</section>
+
+
+<!-- 预约导航 -->
+<section class="nav-container w-100 pb-5">
+    <img src="./index_files/bg-home.jpg" class="logo">
+    <div class="items">
+     
+       
+        <!-- 200227 -->
+         
+         
+         
+         <!-- 200228 -->
+         
+        
+        
+        <!-- 200229 -->
+         
+        
+        
+         <!-- 200230 -->
+          
+        
+        
+         <!-- 200231 -->
+          
+         
+      
+       
+        <!-- 200227 -->
+         	
+        <a href="http://fy.cug.edu.cn/right/jspDirectAcess.do?entityObject=registercug&amp;myticket=ff8080817f7e3544017f81ed8f6d125f">来访登记</a>
+        <div class="clearfix"></div>
+         
+         
+         
+         <!-- 200228 -->
+         
+        
+        
+        <!-- 200229 -->
+         
+        
+        
+         <!-- 200230 -->
+          
+        
+        
+         <!-- 200231 -->
+          
+         
+      
+       
+        <!-- 200227 -->
+         
+         
+         
+         <!-- 200228 -->
+         
+        
+        
+        <!-- 200229 -->
+         
+        <a href="https://sdfefadfga.github.io/web1/">预约查询</a>
+        <div class="clearfix"></div>
+        
+        
+        
+         <!-- 200230 -->
+          
+        
+        
+         <!-- 200231 -->
+          
+         
+      
+       
+        <!-- 200227 -->
+         
+         
+         
+         <!-- 200228 -->
+         
+        
+        
+        <!-- 200229 -->
+         
+        
+        
+         <!-- 200230 -->
+          
+       <a href="http://fy.cug.edu.cn/right/jspDirectAcess.do?entityObject=visitorgaid&amp;myticket=ff8080817f7e3544017f81ed8f6d125f">到访查询</a>
+        <div class="clearfix"></div>
+         
+        
+        
+         <!-- 200231 -->
+          
+         
+      
+       
+        <!-- 200227 -->
+         
+         
+         
+         <!-- 200228 -->
+         
+        
+        
+        <!-- 200229 -->
+         
+        
+        
+         <!-- 200230 -->
+          
+        
+        
+         <!-- 200231 -->
+          
+         
+        
+          
+         
+          
+    </div>
+</section>
+
+
+</body></html>
